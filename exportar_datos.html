@@ -1,0 +1,28 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Acciones de archivo</title>
+  </head>
+  <body>
+
+ <h1>Exportar datos</h1>
+    <form method="POST" action="exportar_datos.php">
+      <p>
+        <input type="radio" name="tipo_archivo" value="json" id="tipo_json">
+        <label for="tipo_json">Exportar como JSON</label>
+      </p>
+      <p>
+        <input type="radio" name="tipo_archivo" value="csv" id="tipo_csv">
+        <label for="tipo_csv">Exportar como CSV</label>
+      </p>
+      <p>
+        <input type="radio" name="tipo_archivo" value="txt" id="tipo_txt">
+        <label for="tipo_txt">Exportar como TXT</label>
+      </p>
+      <p>
+        <input type="submit" value="Exportar datos">
+      </p>
+    </form>
+  </body>
+</html>
